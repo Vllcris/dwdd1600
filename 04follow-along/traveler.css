@@ -103,3 +103,18 @@ main a {
 main a:hover {
     color: rgb(180, 4, 18);
 }
+
+
+/* footer stuff here */
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
