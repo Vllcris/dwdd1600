@@ -190,11 +190,11 @@ legend {
     font-size: 1.15rem;
 }
 
-.form-group {
+.form-field {
     margin-bottom: 15px;
 }
 
-.form-group label,
+.form-field,
 .group-label {
     display: block;
     font-weight: 700;
