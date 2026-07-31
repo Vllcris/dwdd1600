@@ -167,10 +167,10 @@ div.gallery figcaption {
     color: #b64e11;
 }
 
-.quote-form {
+/* .quote-form {
     max-width: 650px;
     margin: 20px auto;
-}
+} */
 
 /* Style the Fieldsets */
 fieldset {
@@ -190,17 +190,17 @@ legend {
     font-size: 1.15rem;
 }
 
-.form-field {
+/* .form-field {
     margin-bottom: 15px;
-}
+} */
 
-.form-field,
+/* .form-field,
 .group-label {
     display: block;
     font-weight: 700;
     margin-bottom: 5px;
     color: #333;
-}
+} */
 
 /* Styled text fields and drop-downs */
 input[type="text"],
@@ -227,7 +227,7 @@ textarea:focus {
     box-shadow: 0 0 5px rgba(0, 90, 135, 0.2);
 }
 
-/* Layout adjustments */
+/* Layout adjustments
 .choice-label {
     display: block;
     font-weight: normal;
@@ -239,10 +239,10 @@ textarea:focus {
 .choice-label input[type="checkbox"] {
     margin-right: 8px;
     vertical-align: middle;
-}
+} */
 
 /* Style for Submit Button */
-.form-actions {
+/* .form-actions {
     text-align: center;
     margin-top: 20px;
 }
@@ -262,4 +262,88 @@ textarea:focus {
 
 .submit-btn:hover {
     background-color: #004466;
+} */
+
+/* ---------------- Form Styles ---------------- */
+
+form {
+    max-width: 650px;
+}
+
+fieldset {
+    border: 2px solid #1F5E88;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+legend {
+    color: #A85200;
+    font-weight: 700;
+    padding: 0 .5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    margin-top: .3rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Radio buttons and checkboxes */
+input[type=radio],
+input[type=checkbox] {
+    margin-right: .5rem;
+}
+
+button[type=submit] {
+    background-color: #1F5E88;
+    color: white;
+    border: none;
+    padding: .75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: "Oxygen", sans-serif;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #024873;
+}
+
+.thankyou {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.return-home {
+    margin-top: 30px;
+}
+
+.home-button {
+    background-color: #a45a12;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
 }
