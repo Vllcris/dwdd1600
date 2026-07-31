@@ -29,35 +29,37 @@
 
     <main>
         <h1>Request a Free Quote</h1>
+
         <p>Please fill out the form below to receive a free estimate for your residential or commercial painting
             project. Our team will review your project details and get back to you within 24 hours.</p>
 
-        <form action="thanks.html" method="GET" class="quote-form">
+        <form action="thanks.html" method="GET">
 
             <fieldset>
                 <legend>1. Contact Information</legend>
 
-                <label class="form-field">
-                    Full Name <span style="color: red;">*</span>
+                <label>
+                    Full Name *
                     <input type="text" name="fullName" required>
                 </label>
 
-                <label class="form-field">
-                    Email Address <span style="color: red;">*</span>
+                <label>
+                    Email Address *
                     <input type="email" name="email" required>
                 </label>
 
-                <label class="form-field">
-                    Phone Number <span style="color: red;">*</span>
+                <label>
+                    Phone Number *
                     <input type="tel" name="phone" placeholder="123-456-7890" required>
                 </label>
+
             </fieldset>
 
             <fieldset>
                 <legend>2. Project Specifications</legend>
 
-                <label class="form-field">
-                    Primary Service Needed:
+                <label>
+                    Primary Service Needed
                     <select name="serviceType">
                         <option value="interior">Interior Wall &amp; Ceiling Painting</option>
                         <option value="exterior">Exterior Siding &amp; Trim Staining</option>
@@ -66,52 +68,64 @@
                     </select>
                 </label>
 
-                <label class="form-field">
-                    Describe your project details:
+                <label>
+                    Describe your project details
                     <textarea name="projectDescription" rows="5"
                         placeholder="Please mention rooms, dimensions, color preferences, or specific surface conditions..."></textarea>
                 </label>
+
             </fieldset>
 
             <fieldset>
                 <legend>3. Timeline &amp; Area Preferences</legend>
 
-                <div class="form-group">
-                    <span class="group-label">When are you looking to start?</span>
-                    <label class="choice-label">
-                        <input type="radio" name="timeline" value="immediate" checked> Immediately (Within 2 weeks)
-                    </label>
-                    <label class="choice-label">
-                        <input type="radio" name="timeline" value="month"> Within a month
-                    </label>
-                    <label class="choice-label">
-                        <input type="radio" name="timeline" value="flexible"> I am flexible / Just looking for a quote
-                    </label>
-                </div>
+                <p>When are you looking to start?</p>
 
-                <div class="form-group">
-                    <span class="group-label">Which spaces require attention? (Select all that apply):</span>
-                    <label class="choice-label">
-                        <input type="checkbox" name="spaces" value="walls"> Indoor Living Areas / Walls &amp; Ceilings
-                    </label>
-                    <label class="choice-label">
-                        <input type="checkbox" name="spaces" value="trim"> Baseboards, Trim, or Doors
-                    </label>
-                    <label class="choice-label">
-                        <input type="checkbox" name="spaces" value="exterior"> Outdoor Siding, Deck, or Fence
-                    </label>
-                </div>
+                <label>
+                    <input type="radio" name="timeline" value="immediate" checked>
+                    Immediately (Within 2 weeks)
+                </label>
+
+                <label>
+                    <input type="radio" name="timeline" value="month">
+                    Within a month
+                </label>
+
+                <label>
+                    <input type="radio" name="timeline" value="flexible">
+                    I am flexible / Just looking for a quote
+                </label>
+
+                <p>Which spaces require attention? (Select all that apply)</p>
+
+                <label>
+                    <input type="checkbox" name="spaces" value="walls">
+                    Indoor Living Areas / Walls &amp; Ceilings
+                </label>
+
+                <label>
+                    <input type="checkbox" name="spaces" value="trim">
+                    Baseboards, Trim, or Doors
+                </label>
+
+                <label>
+                    <input type="checkbox" name="spaces" value="exterior">
+                    Outdoor Siding, Deck, or Fence
+                </label>
+
             </fieldset>
 
-            <p class="form-actions">
-                <button type="submit" class="submit-btn">Get Your Quote</button>
+            <p>
+                <button type="submit">Get Your Quote</button>
             </p>
+
         </form>
     </main>
 
     <footer>
         <address>
-            Geyser Painting Headquarters &bull; Phone: <a href="tel:18005550199">Call Us Now</a>
+            Geyser Painting Headquarters &bull; Phone:
+            <a href="tel:18005550199">Call Us Now</a>
         </address>
         <p>&copy; 2026 Geyser Painting. All rights reserved.</p>
     </footer>
