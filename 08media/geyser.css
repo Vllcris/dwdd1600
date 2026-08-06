@@ -365,7 +365,13 @@ main h2 {
     color: #1d5f8a;
 }
 
+.pricing-table tr:nth-child(odd) {
+    background-color: #eee;
+}
 
+.pricing-table tr:hover {
+    background-color: #ddd;
+}
 
 /*footer stuff here*/
 footer {
